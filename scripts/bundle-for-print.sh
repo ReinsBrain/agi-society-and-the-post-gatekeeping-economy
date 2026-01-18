@@ -28,36 +28,26 @@ cat_file() {
 
 .markdown-body > h1:first-of-type { display: none !important; }
 
+/* Match the proven test pattern: make break markers real block elements even on screen. */
+.page-break,
+.page-break-left {
+	display: block;
+	height: 0;
+}
+
 @media print {
 	.page-break {
-		display: block !important;
-		height: 0;
-		margin: 0;
-		padding: 0;
-		line-height: 0;
-	}
-
-	/*
-		Apply the actual pagination rule to the element AFTER the marker.
-		Many print engines are more consistent when breaking on a heading/div
-		rather than on an empty anchor.
-	*/
-	.page-break + * {
 		break-before: right !important;
 		page-break-before: right !important;
 	}
 
 	.page-break-left {
-		display: block !important;
-		height: 0;
-		margin: 0;
-		padding: 0;
-		line-height: 0;
-	}
-	.page-break-left + * {
 		break-before: left !important;
 		page-break-before: left !important;
 	}
+
+	/* Keep headings with their first paragraph (same as tests) */
+	h1, h2, h3 { break-after: avoid-page; }
 
 }
 </style>

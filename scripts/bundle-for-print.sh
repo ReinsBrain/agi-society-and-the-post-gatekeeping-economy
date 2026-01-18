@@ -39,12 +39,12 @@ cat_file() {
 	display: none !important;
 }
 
-@media print {
-	/* Hide the theme's repo-title header that appears above the book content. */
-	.markdown-body > h1:first-of-type {
-		display: none !important;
-	}
+/* Hide the theme's repo-title header that appears above the book content. */
+.markdown-body > h1:first-of-type {
+	display: none !important;
+}
 
+@media print {
 	/* Prefer recto starts when supported; fall back to plain page breaks. */
 	a.part,
 	a.chapter {

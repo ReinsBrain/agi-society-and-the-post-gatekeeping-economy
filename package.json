@@ -1,0 +1,11 @@
+{
+	"name": "agi-society-and-the-post-gatekeeping-economy",
+	"version": "1.0.0",
+	"description": "by Rein Petersen",
+	"license": "UNLICENSED",
+	"author": "Rein Petersen",
+	"type": "module",
+	"scripts": {
+		"bundle:print": "./scripts/bundle-for-print.sh"
+	}
+}

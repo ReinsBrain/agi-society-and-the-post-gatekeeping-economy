@@ -13,3 +13,5 @@ also: https://www.youtube.com/watch?v=wngalQ32Cro
 
 more on brave new world: https://www.youtube.com/watch?v=MjknmmtW13w
 
+bad education results with AI: https://www.youtube.com/watch?v=XTugyu2F0pc
+

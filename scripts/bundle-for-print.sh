@@ -21,6 +21,13 @@ verso_black_page() {
 	echo
 }
 
+verso_blank_page() {
+	echo
+	# Explicit blank page marker (no divs).
+	echo '<a class="verso-blank" aria-hidden="true"></a>'
+	echo
+}
+
 cat_file() {
 	local path="$1"
 	if [[ ! -f "$path" ]]; then
@@ -44,6 +51,13 @@ cat_file() {
 	display: none !important;
 }
 
+/* These markers are only meaningful for printing; hide them on screen. */
+a.page-break,
+a.verso-black,
+a.verso-blank {
+	display: none !important;
+}
+
 @media print {
 	/* Prefer recto starts when supported; fall back to plain page breaks. */
 	a.part,
@@ -61,6 +75,18 @@ cat_file() {
 		page-break-before: always;
 		page-break-after: always;
 		background: #000;
+		width: 100%;
+		min-height: 100vh;
+	}
+
+	/* Explicit blank pages between sections (useful to force next section onto recto). */
+	a.verso-blank {
+		display: block;
+		break-before: page;
+		break-after: page;
+		page-break-before: always;
+		page-break-after: always;
+		background: #fff;
 		width: 100%;
 		min-height: 100vh;
 	}
@@ -94,7 +120,7 @@ CSS
 	cat_file "$DOCS_DIR/00-frontmatter/07-foreword.md"
 	verso_black_page
 	cat_file "$DOCS_DIR/00-frontmatter/08-preface.md"
-	page_break
+	verso_blank_page
 	cat_file "$DOCS_DIR/00-frontmatter/09-contents.md"
 	page_break
 	cat_file "$DOCS_DIR/00-frontmatter/10-introduction.md"

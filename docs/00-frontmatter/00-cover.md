@@ -1,4 +1,4 @@
-<a id="cover" class="page-break"></a>
+<a id="cover"></a>
 
 # AGI, Society, and the Post-Gatekeeping Economy
 

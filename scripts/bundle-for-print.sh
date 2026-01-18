@@ -32,6 +32,7 @@ cat_file() {
 	.page-break { display: block; break-before: right; }
 
 	#colophan.page-break { break-before: left !important; }
+	#frontispiece.page-break { break-before: left !important; }
 
 }
 </style>

@@ -93,10 +93,22 @@ a.verso-blank {
 
 	/* Utility marker inserted between concatenated files. */
 	a.page-break {
-		break-after: page;
-		page-break-after: always;
+		/* Print-inert marker: used only as a CSS hook for the next element. */
+		display: none !important;
+	}
+
+	/* Force the next element (i.e., the next file's first node) onto a new page. */
+	a.page-break + * {
+		/* Default: new sections start on recto (right/odd) pages. */
 		display: block;
-		height: 0;
+		break-before: right !important;
+		page-break-before: always !important;
+	}
+
+	/* Exception: the colophon is intended to be verso (left/even). */
+	a.page-break + a#colophon {
+		break-before: left !important;
+		page-break-before: always !important;
 	}
 }
 </style>

@@ -35,6 +35,14 @@ cat_file() {
 		margin: 0;
 		padding: 0;
 		line-height: 0;
+	}
+
+	/*
+		Apply the actual pagination rule to the element AFTER the marker.
+		Many print engines are more consistent when breaking on a heading/div
+		rather than on an empty anchor.
+	*/
+	.page-break + * {
 		break-before: right !important;
 		page-break-before: right !important;
 	}
@@ -45,6 +53,8 @@ cat_file() {
 		margin: 0;
 		padding: 0;
 		line-height: 0;
+	}
+	.page-break-left + * {
 		break-before: left !important;
 		page-break-before: left !important;
 	}

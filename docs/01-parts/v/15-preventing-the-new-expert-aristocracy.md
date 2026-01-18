@@ -1,4 +1,4 @@
-<a id="v.15" class="chapter"></a>
+<a id="v.15" class="chapter page-break"></a>
 
 ## Chapter 15 — Preventing the New Expert Aristocracy (Elaboration)
 

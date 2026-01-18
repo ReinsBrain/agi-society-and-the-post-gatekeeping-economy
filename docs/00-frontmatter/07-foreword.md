@@ -1,4 +1,4 @@
-<a id="foreword"></a>
+<a id="foreword" class="page-break"></a>
 
 # Foreword
 

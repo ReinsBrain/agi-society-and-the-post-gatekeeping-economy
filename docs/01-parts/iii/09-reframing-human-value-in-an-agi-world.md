@@ -1,4 +1,4 @@
-# Part III — Human Stewards
+<a id="iii.09" class="chapter page-break"></a>
 
 ## Chapter 9 — Reframing Human Value in an AGI World
 

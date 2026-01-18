@@ -1,4 +1,4 @@
-<a id="vii.21" class="chapter"></a>
+<a id="vii.21" class="chapter page-break"></a>
 
 ## Chapter 21 — Choosing Participation Over Comfort
 

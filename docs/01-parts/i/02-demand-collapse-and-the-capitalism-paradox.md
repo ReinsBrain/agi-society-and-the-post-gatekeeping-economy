@@ -1,4 +1,4 @@
-<a id="i.02" class="chapter"></a>
+<a id="i.02" class="chapter page-break"></a>
 
 ## Chapter 2 — Capitalism’s Dependence on Broad Purchasing Power
 

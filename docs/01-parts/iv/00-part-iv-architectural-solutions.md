@@ -1,4 +1,4 @@
-<a id="iv" class="part"></a>
+<a id="iv" class="part page-break"></a>
 
 # Part IV
 Architectural Solutions

@@ -1,4 +1,4 @@
-<a id="vii.20" class="chapter"></a>
+<a id="vii.20" class="chapter page-break"></a>
 
 ## Chapter 20 — A Society Worth Keeping Human
 

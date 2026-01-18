@@ -1,4 +1,4 @@
-<a id="v.16" class="chapter"></a>
+<a id="v.16" class="chapter page-break"></a>
 
 ## Chapter 16 — New Capitalism?
 

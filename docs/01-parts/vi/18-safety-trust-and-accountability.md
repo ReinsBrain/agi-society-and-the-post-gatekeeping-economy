@@ -1,4 +1,4 @@
-<a id="vi.18" class="chapter"></a>
+<a id="vi.18" class="chapter page-break"></a>
 
 ## Chapter 18 — Safety, Trust, and Accountability
 

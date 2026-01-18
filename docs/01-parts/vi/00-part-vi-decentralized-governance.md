@@ -1,4 +1,4 @@
-<a id="vi" class="part"></a>
+<a id="vi" class="part page-break"></a>
 
 # Part VI
 Decentralized Governance

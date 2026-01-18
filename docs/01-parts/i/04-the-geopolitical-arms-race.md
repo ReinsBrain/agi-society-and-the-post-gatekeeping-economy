@@ -1,4 +1,4 @@
-<a id="i.04" class="chapter"></a>
+<a id="i.04" class="chapter page-break"></a>
 
 ## Chapter 4 — The Geopolitical Arms Race
 

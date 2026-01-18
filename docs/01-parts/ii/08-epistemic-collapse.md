@@ -1,4 +1,4 @@
-<a id="ii.08" class="chapter"></a>
+<a id="ii.08" class="chapter page-break"></a>
 
 ## Chapter 8 — Epistemic Collapse
 

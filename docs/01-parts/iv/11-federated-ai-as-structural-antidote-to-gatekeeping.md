@@ -1,4 +1,4 @@
-<a id="iv.11" class="chapter"></a>
+<a id="iv.11" class="chapter page-break"></a>
 
 ## Chapter 11 — Federated AI as Structural Antidote to Gatekeeping
 

@@ -1,4 +1,4 @@
-<a id="ii.06" class="chapter"></a>
+<a id="ii.06" class="chapter page-break"></a>
 
 ## Chapter 6 — Corporate AI Feudalism
 

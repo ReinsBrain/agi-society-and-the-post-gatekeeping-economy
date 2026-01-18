@@ -1,4 +1,4 @@
-<a id="iv.12" class="chapter"></a>
+<a id="iv.12" class="chapter page-break"></a>
 
 ## Chapter 12 — Federated Mix of Experts as a Plural Intelligence Fabric
 

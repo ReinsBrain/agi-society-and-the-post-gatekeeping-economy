@@ -1,4 +1,4 @@
-<a id="back-cover"></a>
+<a id="back-cover" class="page-break"></a>
 
 <!-- TODO: longer, informal description of this novel -->
 

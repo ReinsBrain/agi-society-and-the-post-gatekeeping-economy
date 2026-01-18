@@ -1,4 +1,4 @@
-<a id="vii.19" class="chapter"></a>
+<a id="vii.19" class="chapter page-break"></a>
 
 ## Chapter 19 — Inevitable Growing Pains
 

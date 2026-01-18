@@ -1,4 +1,4 @@
-<a id="ii.07" class="chapter"></a>
+<a id="ii.07" class="chapter page-break"></a>
 
 ## Chapter 7 — Bureaucratic Technocracy
 

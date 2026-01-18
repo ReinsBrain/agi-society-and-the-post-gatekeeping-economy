@@ -1,3 +1,3 @@
-<a id="bibliography"></a>
+<a id="bibliography" class="page-break"></a>
 
 <!-- TODO: bibliography -->

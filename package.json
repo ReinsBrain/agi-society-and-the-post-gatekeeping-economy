@@ -6,6 +6,6 @@
 	"author": "Rein Petersen",
 	"type": "module",
 	"scripts": {
-		"bundle:print": "bash ./scripts/bundle-for-print.sh"
+		"bundle:print": "./scripts/bundle-for-print.sh"
 	}
 }

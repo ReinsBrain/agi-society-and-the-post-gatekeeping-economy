@@ -1,4 +1,4 @@
-<a id="contents"></a>
+<a id="contents" class="page-break"></a>
 
 # Contents
 

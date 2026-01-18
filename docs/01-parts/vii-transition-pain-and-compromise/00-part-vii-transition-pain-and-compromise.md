@@ -1,4 +1,4 @@
-<a id="vii" class="part"></a>
+<a id="vii" class="part page-break"></a>
 
 # Part VII
 Transition Pain and Compromise

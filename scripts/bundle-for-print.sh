@@ -29,10 +29,10 @@ cat_file() {
 .markdown-body > h1:first-of-type { display: none !important; }
 
 @media print {
-	.page-break { display: block; break-before: right; }
+	.page-break { display: block; break-before: recto; !important }
 
-	#colophan.page-break { break-before: left !important; }
-	#frontispiece.page-break { break-before: left !important; }
+	#colophan.page-break { break-before: verso !important; }
+	#frontispiece.page-break { break-before: verso !important; }
 
 }
 </style>

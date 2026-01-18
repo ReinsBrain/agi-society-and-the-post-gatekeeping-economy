@@ -1,4 +1,4 @@
-<a id="colophon" class="page-break"></a>
+<a id="colophon" class="page-break-left"></a>
 
 Copyright @ 2026 Rein Petersen
 

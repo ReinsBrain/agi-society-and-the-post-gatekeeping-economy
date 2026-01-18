@@ -29,10 +29,25 @@ cat_file() {
 .markdown-body > h1:first-of-type { display: none !important; }
 
 @media print {
-	.page-break { display: block; break-before: right !important; }
+	.page-break {
+		display: block !important;
+		height: 0;
+		margin: 0;
+		padding: 0;
+		line-height: 0;
+		break-before: right !important;
+		page-break-before: right !important;
+	}
 
-	#colophon.page-break { break-before: left !important; }
-	#frontispiece.page-break { break-before: left !important; }
+	.page-break-left {
+		display: block !important;
+		height: 0;
+		margin: 0;
+		padding: 0;
+		line-height: 0;
+		break-before: left !important;
+		page-break-before: left !important;
+	}
 
 }
 </style>
